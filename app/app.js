@@ -16,12 +16,22 @@ function App() {
       </header>
 
       <section className="hero">
-        <h2>Pure & Divine Pooja Essentials</h2>
-        <p>
-          Premium quality pooja items delivered to your doorstep.
-        </p>
-        <button>Shop Now</button>
-      </section>
+
+  <div className="hero-text">
+    <h2>Pure & Divine Pooja Essentials</h2>
+    <p>
+      Premium quality pooja items delivered to your doorstep.
+    </p>
+    <button>Shop Now</button>
+  </div>
+
+  <img 
+    src="https://images.unsplash.com/photo-1602924357228-91a4daadcfea"
+    alt="Pooja"
+    className="hero-img"
+  />
+
+</section>
 
 
       <section className="categories">
