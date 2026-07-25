@@ -31,23 +31,37 @@ nav span {
 
 /* Hero */
 .hero {
-  padding: 70px 20px;
-  background: linear-gradient(135deg,#8b4513,#d4af37);
-  color: white;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  padding:70px 20px;
+  background:linear-gradient(135deg,#8b4513,#d4af37);
+  color:white;
 }
 
-.hero h2 {
-  font-size: 38px;
+.hero-text{
+  max-width:500px;
 }
 
-.hero button,
-.product button {
-  background: #d4af37;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 16px;
+.hero-img{
+  width:350px;
+  border-radius:20px;
+  box-shadow:0 10px 25px #0005;
+}
+
+
+@media(max-width:700px){
+
+.hero{
+ flex-direction:column;
+}
+
+.hero-img{
+ width:90%;
+ margin-top:30px;
+}
+
+}
 }
 
 
