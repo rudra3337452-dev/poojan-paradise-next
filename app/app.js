@@ -46,29 +46,37 @@ function App() {
       </section>
 
 
-      <section className="products">
-        <h2>Premium Products</h2>
+      <<section className="products">
+  <h2>Premium Products</h2>
 
-        <div className="cards">
-          <div className="product">
-            <h3>Pure Kapoor</h3>
-            <p>₹199</p>
-            <button>Add Cart</button>
-          </div>
+  <div className="cards">
 
-          <div className="product">
-            <h3>Cow Ghee Diya</h3>
-            <p>₹299</p>
-            <button>Add Cart</button>
-          </div>
+    <div className="product">
+      <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59" alt="Kapoor"/>
+      <h3>Pure Kapoor</h3>
+      <p>₹199</p>
+      <button>Add Cart</button>
+    </div>
 
-          <div className="product">
-            <h3>Hawan Samagri</h3>
-            <p>₹249</p>
-            <button>Add Cart</button>
-          </div>
-        </div>
-      </section>
+
+    <div className="product">
+      <img src="https://images.unsplash.com/photo-1602924357228-91a4daadcfea" alt="Diya"/>
+      <h3>Cow Ghee Diya</h3>
+      <p>₹299</p>
+      <button>Add Cart</button>
+    </div>
+
+
+    <div className="product">
+      <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a" alt="Hawan"/>
+      <h3>Hawan Samagri</h3>
+      <p>₹249</p>
+      <button>Add Cart</button>
+    </div>
+
+
+  </div>
+</section>
 
 
       <section className="why">
