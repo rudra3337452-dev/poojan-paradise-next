@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import Link from "next/link";
 function App() {
   return (
     <div className="app">
