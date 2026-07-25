@@ -1,14 +1,8 @@
+import Navbar from "./components/Navbar"; 
 export default function Home() {
   return (
-    <main>
-      <header
-        style={{
-          background: "#7A0019",
-          color: "#fff",
-          padding: "18px 30px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
+    <main >
+      <Navbar />
         }}
       >
         <h2>Poojan Paradise</h2>
